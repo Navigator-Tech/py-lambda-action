@@ -45,7 +45,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy code to Lambda
-      uses: mariamrf/py-lambda-action@v1.0.0
+      uses: Navigator-Tech/py-lambda-action@v1.0.0
       with:
         lambda_layer_arn: 'arn:aws:lambda:us-east-2:123456789012:layer:my-layer'
         lambda_function_name: 'my-function'
